@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.deuceng.cengonline">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StreamStudentActivity"></activity>
+        <activity android:name=".StreamTeacherActivity" />
+        <activity android:name=".MessageList" />
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".SubmittedWorkStudentActivity" />
+        <activity android:name=".SummittedWorkList" />
+        <activity android:name=".AnnouncementStudentActivity" />
+        <activity android:name=".AssignmentStudentActivity" />
+        <activity android:name=".CourseStudentActivity" />
+        <activity android:name=".SubmittedWorkTeacherActivity" />
+        <activity android:name=".AnnouncementList" />
+        <activity android:name=".CourseList" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AssignmentTeacherActivity" />
+        <activity android:name=".AnnouncementTeacherActivity" />
+        <activity android:name=".CourseTeacherActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
